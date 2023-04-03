@@ -36,12 +36,14 @@ export const Intro = styled.div`
       height: auto !important;
     }
     .hi {
-      max-width: 150px;
-      top: -90px;
+      max-width: 130px;
+      top: -80px;
+      right: -70px;
     }
     img {
-      width: 56px;
-      left: -60px;
+      width: 44px;
+      left: -46px;
+      top: -30px;
     }
   }
 `;
@@ -99,14 +101,8 @@ export const Container = styled.div`
   max-width: 1300px;
   margin: 0 auto;
   padding: 0px 80px 140px;
-  @media screen and (max-width: 1440px) {
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  }
   @media screen and (max-width: 1100px) {
     padding: 80px 60px;
-  }
-  @media screen and (max-width: 1000px) {
-    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   }
   @media screen and (max-width: 900px) {
     padding: 60px 40px;
