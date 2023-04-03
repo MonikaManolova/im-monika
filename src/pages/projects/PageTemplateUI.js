@@ -27,7 +27,6 @@ export const IntroWrapper = styled.div`
   padding: 100px 0;
 
   @media screen and (max-width: 1190px) {
-    flex-direction: column;
     padding: 100px 60px;
   }
 `;
@@ -35,9 +34,6 @@ export const IntroWrapper = styled.div`
 export const Header = styled.div`
   min-width: 460px;
   width: 460px;
-  @media screen and (max-width: 1190px) {
-    width: 100%;
-  }
   @media screen and (max-width: 580px) {
     min-width: 100%;
   }
@@ -79,7 +75,7 @@ export const RoleDescription = styled.div`
     font-size: 14px;
   }
   @media screen and (max-width: 1190px) {
-    margin-left: 0px;
+    margin-left: 40px;
   }
 `;
 
@@ -216,24 +212,10 @@ export const Image = styled.img`
   }
 `;
 
-// export const ImagesContainer = styled.div`
-//   position: relative;
-//   img:nth-child(2){
-//     position: absolute;
-//     left: 0;
-//     top: 60%;
-//   }
-// `
-
 export const GamespageImgWrapper = styled.div`
-  /* transform: translateY(-440px); */
   position: relative;
   .forms {
-    /* position: absolute; */
     max-width: 930px;
-    /* transform: translateX(-50%) !important; */
-    /* left: 50%; */
-    /* bottom: -200px; */
   }
 `;
 
