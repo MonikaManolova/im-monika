@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 export const FooterWrapper = styled.div`
-  width: 100%;
   background: #1f1e1c;
-  padding: 60px 0;
+  padding: 60px;
 `;
 
 export const Intro = styled.div`
@@ -19,7 +18,7 @@ export const Intro = styled.div`
 `;
 
 export const Title = styled.div`
-  font-family: "Rochek Display";
+  font-family: "Rocheck-Display";
   width: 340px;
   font-size: 44px;
   line-height: 54px;
@@ -44,7 +43,7 @@ export const Row = styled.div`
 `;
 
 export const Name = styled.div`
-  font-family: "Rochek Display";
+  font-family: "Rocheck-Display";
   font-size: 26px;
   text-align: left;
 `;
